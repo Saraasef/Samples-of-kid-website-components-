@@ -1,0 +1,29 @@
+.banner{
+    height: 250px;
+    margin-top: 10px;
+    background-color: rgba(150, 157, 204, 1);
+   
+  }
+  .text
+  {
+      font-size:large;
+      text-decoration: none;
+  }
+ 
+.imagcard{
+  height: 85%;
+  width:95%;
+  margin:5% 5% 5% 5%;
+  outline: dashed rgb(103, 240, 24) ; 
+}
+.imagdivfont{
+  font-family: Kalame;
+  font-size: .75em;
+  text-align: center;
+  margin-top: 10px; 
+  color: black;
+}
+.imghede{
+    height: 70%;
+    width:100%;
+}

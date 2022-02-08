@@ -1,0 +1,39 @@
+.Category1, .Category2,  .Category3 {
+  height: 235px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+ .Categorycard{
+     text-align: center;
+     outline: dashed rgb(43, 35, 156) ; 
+ }
+  .step1font{
+  float: right;
+  font-size: small;
+  margin-right: 5px;
+  padding-bottom: 3px;
+  color: rgba(0, 0, 0, 0.993);
+ 
+  }
+  .colcategory{
+    height: 230px;
+    width: 100%;
+  }
+  .colcategoryimg{
+    height: 98%;
+  }
+  
+  .step1fontimg{
+    width: 22px;
+    height: 22px;
+    float: right;
+  }
+  .step1fonttypo{
+    margin-right: 21%;
+  }
+  .text{
+    font-size: 1em;
+    /* padding: 4px; */
+  }
+  

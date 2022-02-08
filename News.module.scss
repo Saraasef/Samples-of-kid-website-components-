@@ -1,0 +1,133 @@
+.news{
+    height: 320px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgba(255, 179, 143, 1); 
+    
+  }
+
+  .linkkidkala{
+    margin-top: 10px;
+    margin-right: 17%;
+    text-align: right;
+    font-size: .80em;
+  }
+ .listactivity{
+   margin-top: 8px;
+  font-size: 1em;
+ }
+ .listactivitylink{
+  float: right;
+   font-size: .8em; 
+ }
+ .jumpingnews{
+   margin-top: 40px;
+   width: 40px;
+   height: 10px;
+ }
+  .newsfont1{
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 43%;
+    margin-top: 15px;
+  }
+  .newsfont1text{
+    background-image: linear-gradient(to right, violet, yellow, red, gray, orange, red, violet);
+  }
+.cardtitle text-white{
+  text-align: center;
+}
+  .card {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    .cardbody {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity ease-out 250ms;
+    }
+    &:hover .card-img {
+      opacity: 0.5;
+    }
+    &:hover .card-body {
+      opacity: 1;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 10%;
+      bottom: 33%;
+      left: 20%;
+      right: 20%;
+      opacity: 1;
+      transition: transform ease-out 200ms;
+    }
+    &::before {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      transform: scale(0, 1);
+    }
+    &::after {
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      transform: scale(1,0);
+    }
+    &:hover::before {
+      transform: scale(1.05, 1);
+    }
+    &:hover::after {
+      transform: scale(1, 1.05);
+    }
+    .cardimg {
+      transition: opacity  200ms;
+      width: 70%;
+      height: 70%;
+      margin-left: 14%;
+      text-align: center;
+      border-radius: 5px;
+    }
+  }
+  .newsanimationvideodiv{
+    margin-left: 30%;
+  }
+  .newsanimationvideo{
+      width: 60%;
+      height: auto;
+      border-radius: 5px;
+  }
+  .cardtitletextwhite{
+     color: #fff;
+     margin-top: 10px;
+     float: right;
+    //  margin-right: 14%;
+  }
+.divar{
+  width: 35px;
+  height: 28px;
+  padding:.2em;
+}
+.table, .th, .td {
+  border:none;
+  width: 90%;
+  font-size:.70em;
+  text-align: center;
+}
+.relatedlinktable{
+  margin-right: 20%;
+}
+.relatedlink{
+font-weight: bold;
+font-size: small;
+margin-top: 8px;
+margin-left:19%;
+}
+.relatedlinkinternal{
+  float: right;
+}
+.relatedlinkexternal{
+  margin-top: 8px;
+}
