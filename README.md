@@ -1,5 +1,5 @@
 # Samples-of-kid-website-components
-An e-commerce Kid's accessories using React.js, Redux, SCSS, HTML, CSS, API.
+An e-commerce Kid's accessories (Second-hands online shopping) using React.js, Redux, SCSS, HTML, CSS, API.
 containing different parts of Menu, Hero, Banner, News, etc. In the following there are sample of different components, photos and their codes followingly:
 
 1: Header & Menu
